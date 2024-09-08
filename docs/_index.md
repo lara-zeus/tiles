@@ -1,7 +1,7 @@
 ---
 title: v1
-slogan: Bookmark manager for your filament resources
-githubUrl: https://github.com/lara-zeus/delia
+slogan: Collection of components to present your data in an elegant way
+githubUrl: https://github.com/lara-zeus/tiles
 branch: 1.x
 icon: vaadin-bolt
 ---

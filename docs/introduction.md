@@ -4,20 +4,22 @@ weight: 1
 ---
 
 ## Introduction
-@zeus Delia, is a bookmark manager for your filament resources.
+@zeus Tiles is a collection of components to present your data in an elegant way.
 
-**[Demo](https://demo.larazeus.com/admin/bookmarks) · [Github](https://github.com/lara-zeus/delia) · [Discord](https://discord.com/channels/883083792112300104/1282126652284866641)**
+useful for user component and similar date, you can show the user with the name and avatar, including the email, for better visual presentation
+
+**[Demo](https://demo.larazeus.com/admin/tiles) · [Discord](#)**
 
 ## Features
 
-- 🔥 Add any resources to bookmark.
-- 🔥 easy access to the bookmark list from the top bar
-- 🔥 included widget
+- 🔥 Table column
+- 🔥 Form layout component
+- 🔥 Infolist entry
+- 🔥 Select component
 
 ## Support
 
 available support channels:
 
-* using our channel `#delia` on [Filament Discord](https://discord.com/channels/883083792112300104/1282126652284866641)
-* open an issue on [GitHub](https://github.com/lara-zeus/delia/issues)
+* using our channel `#tiles` on [Filament Discord](#)
 * Email us using the [contact center](https://larazeus.com/contact-us)

@@ -1,26 +1,45 @@
-## Zeus Delia
+## Zeus Tiles
 
-a bookmark manager for your filament resources.
-When you have many, many resources, let your users bookmark what's important to them for easy access.
+a collection of components to present your data in an elegant way.
+useful for user component and similar date, you can show the user with the name and avatar, including the email, for better visual presentation
 
 ## Features
 
-- 🔥 Add any resources to bookmark.
-- 🔥 easy access to the bookmark list from the top bar
-- 🔥 included widget
+- 🔥 Table column
+- 🔥 Form layout component
+- 🔥 Infolist entry
+- 🔥 Select component
 
 ## Screenshots
 
-* **Admin:**:
+Table Column with tooltip:
 
-![](https://larazeus.com/images/screenshots/delia/admin-1.webp)
-![](https://larazeus.com/images/screenshots/delia/admin-2.webp)
-![](https://larazeus.com/images/screenshots/delia/admin-3.webp)
+![](https://larazeus.com/images/screenshots/tiles/admin-1.webp)
+
+Form Layout:
+
+![](https://larazeus.com/images/screenshots/tiles/admin-2.webp)
+
+Infolist Entry
+
+![](https://larazeus.com/images/screenshots/tiles/admin-3.webp)
+
+Table Column with popover to show more details:
+
+![](https://larazeus.com/images/screenshots/tiles/admin-4.webp)
+
+Select Form with image and description:
+
+![](https://larazeus.com/images/screenshots/tiles/admin-5.webp)
+
+Select Form with search:
+
+![](https://larazeus.com/images/screenshots/tiles/admin-6.webp)
 
 ## More Details
 
-**✨ to learn more about Delia the bookmark manager, please visit:**
+**✨ to learn more about Tiles, please visit:**
 
-- [Docs](https://larazeus.com/delia)
-- [Demo](https://demo.larazeus.com/admin/bookmarks)
-- [Discord](https://discord.com/channels/883083792112300104/1282126652284866641)
+- [Docs](https://larazeus.com/tiles)
+- [Demo](https://demo.larazeus.com/admin/tiles)
+- [Discord](#)
