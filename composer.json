@@ -1,0 +1,76 @@
+{
+    "name": "lara-zeus/tiles",
+    "description": "collection of components to present your data in an elegant way",
+    "keywords": [
+        "laravel",
+        "lara-zeus",
+        "user picker",
+        "user info",
+        "avatar with name",
+        "Media Objects",
+        "Media and Text"
+    ],
+    "homepage": "https://larazeus.com/tiles",
+    "support": {
+        "issues": "https://github.com/lara-zeus/tiles/issues",
+        "source": "https://github.com/lara-zeus/tiles"
+    },
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Lara Zeus (Ash)",
+            "email": "info@larazeus.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "filament/filament": "^3.0"
+    },
+    "require-dev": {
+        "nunomaduro/collision": "^7.0",
+        "phpstan/phpstan-deprecation-rules": "^1.0",
+        "phpstan/phpstan-phpunit": "^1.0",
+        "laravel/pint": "^1.0",
+        "larastan/larastan": "^2.2",
+        "orchestra/testbench": "^8.0",
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaraZeus\\Tiles\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LaraZeus\\Tiles\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "pint": "vendor/bin/pint",
+        "test:phpstan": "vendor/bin/phpstan analyse",
+        "test": [
+            "@test:phpstan"
+        ]
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "phpstan/extension-installer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaraZeus\\Tiles\\TilesServiceProvider"
+            ],
+            "aliases": {
+                "Tiles": "LaraZeus\\Tiles\\Facades\\Tiles"
+            }
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "stable"
+}
