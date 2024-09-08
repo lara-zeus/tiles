@@ -4,6 +4,7 @@ namespace LaraZeus\Tiles\Forms\Components;
 
 use Filament\Forms\Components\Select;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Arr;
 use LaraZeus\Tiles\Concerns\HasKeys;
 
 class TileSelect extends Select
@@ -16,7 +17,7 @@ class TileSelect extends Select
 
         $this
             ->allowHtml()
-            ->searchable()
+            ->native(false)
             ->options(function (TileSelect $component) {
                 return $component->getModel()::query()
                     ->limit(1)
@@ -27,13 +28,19 @@ class TileSelect extends Select
                     ->toArray();
             })
             ->getSearchResultsUsing(function (string $search, TileSelect $component) {
-                return $component->getModel()::where('name', 'like', "%{$search}%")
-                    ->limit(1)
+                $searchColumns = Arr::wrap($component->getSearchColumns());
+                $query = $component->getModel()::query();
+                foreach ($searchColumns as $searchColumn) {
+                    $query = $query->orWhere($searchColumn, 'like', "%{$search}%");
+                }
+                $query = $query->limit(1)
                     ->get()
                     ->mapWithKeys(function ($item) use ($component) {
                         return [$item->getKey() => static::getCleanOptionString($item, $component)];
                     })
                     ->toArray();
+
+                return $query;
             })
             ->getOptionLabelUsing(function (string $value, TileSelect $component): string {
                 $item = $component->getModel()::find($value);
