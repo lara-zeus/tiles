@@ -12,8 +12,10 @@
     ],
     "homepage": "https://larazeus.com/tiles",
     "support": {
-        "issues": "https://github.com/lara-zeus/tiles/issues",
-        "source": "https://github.com/lara-zeus/tiles"
+        "chat": "https://discord.com/channels/883083792112300104/1282763077611421829",
+        "contact": "https://larazeus.com/contact-us",
+        "docs": "https://larazeus.com/tiles",
+        "email": "info@larazeus.com"
     },
     "license": "MIT",
     "type": "library",

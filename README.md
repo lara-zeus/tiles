@@ -28,7 +28,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 
 ## Support
 available support channels:
-* using our channel `#tiles` on [Discord](#)
+* using our channel `#tiles` on [Discord](https://discord.com/channels/883083792112300104/1282763077611421829)
 * email us using the [contact center](https://larazeus.com/contact-us)
 
 ## Contributing
@@ -41,7 +41,7 @@ If you discover any security related issues, please email info@larazeus.com inst
 
 ## Credits
 
--   [php coder](https://github.com/atmonshi)
+-   [Lara Zeus (Ash)](https://github.com/atmonshi)
 -   [All Contributors](../../contributors)
 
 ## License

@@ -8,7 +8,7 @@ weight: 1
 
 useful for user component and similar date, you can show the user with the name and avatar, including the email, for better visual presentation
 
-**[Demo](https://demo.larazeus.com/admin/tiles) · [Discord](#)**
+**[Demo](https://demo.larazeus.com/admin/tiles) · [Discord](https://discord.com/channels/883083792112300104/1282763077611421829)**
 
 ## Features
 
@@ -21,5 +21,5 @@ useful for user component and similar date, you can show the user with the name 
 
 available support channels:
 
-* using our channel `#tiles` on [Filament Discord](#)
+* using our channel `#tiles` on [Filament Discord](https://discord.com/channels/883083792112300104/1282763077611421829)
 * Email us using the [contact center](https://larazeus.com/contact-us)

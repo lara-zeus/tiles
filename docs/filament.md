@@ -42,4 +42,4 @@ Select Form with search:
 
 - [Docs](https://larazeus.com/tiles)
 - [Demo](https://demo.larazeus.com/admin/tiles)
-- [Discord](#)
+- [Discord](https://discord.com/channels/883083792112300104/1282763077611421829)
