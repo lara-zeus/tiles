@@ -5,7 +5,11 @@ weight: 3
 
 ## Form Layout
 
-to use the tiles as a Form Layout, usefull to show `Created By` in edit page
+to use the tiles as a Form Layout, useful to show information like `Created By` in edit page:
+
+@blade
+<x-auto-screenshot name="tiles/form-layout" alt="using tiles component in forms" />
+@endblade
 
 ```php
 TileLayout::make('name')
@@ -22,6 +26,10 @@ TileLayout::make('name')
 
 use the tile select component to list users with avatar, or products with its image
 
+@blade
+<x-auto-screenshot name="tiles/form-select" alt="using tiles component in forms" />
+@endblade
+
 ```php
 TileSelect::make('billable_id')
     ->model(User::class)
@@ -35,6 +43,10 @@ TileSelect::make('billable_id')
 
 show the user info in the table with avatar and description
 
+@blade
+<x-auto-screenshot name="tiles/table-column" alt="using tiles component in table column" />
+@endblade
+
 ```php
 TileColumn::make('name')
     ->icon('tabler-dots-vertical')
@@ -44,9 +56,13 @@ TileColumn::make('name')
     ->image(fn(User $record) => $record->profile_photo_url),
 ```
 
-## infolist entry:
+## Infolist Entry:
 
 show the user info in the infolist with avatar and description
+
+@blade
+<x-auto-screenshot name="tiles/infolist-entry" alt="using tiles component in infolist entry" />
+@endblade
 
 ```php
 TileEntry::make('name')
