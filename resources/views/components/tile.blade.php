@@ -23,31 +23,27 @@
             'grid gap-y-1' => !isset($field),
         ])
 >
-    <div class="flex items-center justify-between cursor-pointer" @click="$refs.panel.toggle">
-        <div>
-            <div class="flex max-w-max">
-                <div class="inline-flex items-center gap-1.5">
-                    @if(filled($image))
-                        <img
-                                alt="{{ $state }}"
-                                class="h-5 w-5 text-gray-400 dark:text-gray-500"
-                                src="{{ $image }}"
-                        >
-                    @endif
+    <div class="flex items-center justify-between" @click="$refs.panel.toggle">
+        <div class="inline-flex items-center gap-2">
+            @if(filled($image))
+                <img
+                    alt="{{ $state }}"
+                    class="h-8 w-8 text-gray-400 dark:text-gray-500"
+                    src="{{ $image }}"
+                >
+            @endif
 
-                    <span class="text-sm leading-6 text-gray-950 dark:text-white">
+            <div>
+                <span class="text-sm leading-6 text-gray-950 dark:text-white">
                     {{ $state }}
                 </span>
-                </div>
+                @if (filled($description))
+                    <p class="text-sm text-gray-500 dark:text-gray-400">
+                        {{ $description }}
+                    </p>
+                @endif
             </div>
-
-            @if (filled($description))
-                <p class="text-sm text-gray-500 dark:text-gray-400">
-                    {{ $description }}
-                </p>
-            @endif
         </div>
-
 
         @if(filled($icon))
             <x-filament::icon
