@@ -20,7 +20,6 @@ class TileSelect extends Select
             ->native(false)
             ->options(function (TileSelect $component) {
                 return $component->getModel()::query()
-                    ->limit(1)
                     ->get()
                     ->mapWithKeys(function ($item) use ($component) {
                         return [$item->getKey() => static::getCleanOptionString($item, $component)];
@@ -33,7 +32,7 @@ class TileSelect extends Select
                 foreach ($searchColumns as $searchColumn) {
                     $query = $query->orWhere($searchColumn, 'like', "%{$search}%");
                 }
-                $query = $query->limit(1)
+                $query = $query
                     ->get()
                     ->mapWithKeys(function ($item) use ($component) {
                         return [$item->getKey() => static::getCleanOptionString($item, $component)];
