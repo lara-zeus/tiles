@@ -2,6 +2,14 @@
 
 All notable changes to `Tiles` will be documented in this file
 
+## v1.0.3 - 2025-02-25
+
+### What's Changed
+
+* fix limit in select by @atmonshi in https://github.com/lara-zeus/tiles/pull/3
+
+**Full Changelog**: https://github.com/lara-zeus/tiles/compare/v1.0.2...v1.0.3
+
 ## v1.0.2 - 2024-10-29
 
 ### What's Changed
@@ -20,6 +28,7 @@ you can pass
 
 ```php
 ->searchable(['name','email'])
+
 
 
 ```
