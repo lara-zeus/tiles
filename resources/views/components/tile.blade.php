@@ -47,8 +47,9 @@
 
         @if(filled($icon))
             <x-filament::icon
-                    :icon="$icon"
-                    class="h-4 w-4 text-gray-500 dark:text-gray-400"
+                :$getExtraAttributes()
+                :icon="$icon"
+                class="h-4 w-4 text-gray-500 dark:text-gray-400"
             />
         @endif
     </div>
