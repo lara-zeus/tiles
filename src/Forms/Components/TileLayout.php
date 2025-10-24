@@ -4,7 +4,7 @@ namespace LaraZeus\Tiles\Forms\Components;
 
 use Closure;
 use Filament\Forms\Components\Field;
-use Filament\Tables\Columns\Concerns\HasTooltip;
+use Filament\Support\Concerns\HasTooltip;
 use LaraZeus\Tiles\Concerns\HasTile;
 
 class TileLayout extends Field
