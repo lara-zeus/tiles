@@ -2,6 +2,14 @@
 
 All notable changes to `Tiles` will be documented in this file
 
+## 2.0.1 - 2025-10-24
+
+### What's Changed
+
+* add support for filament 4 by @atmonshi in https://github.com/lara-zeus/tiles/pull/6
+
+**Full Changelog**: https://github.com/lara-zeus/tiles/compare/2.0.0...2.0.1
+
 ## v1.0.3 - 2025-02-25
 
 ### What's Changed
@@ -28,6 +36,7 @@ you can pass
 
 ```php
 ->searchable(['name','email'])
+
 
 
 
