@@ -2,6 +2,10 @@
 
 All notable changes to `Tiles` will be documented in this file
 
+## 3.0.0 - 2026-03-10
+
+support filament 5
+
 ## 2.0.1 - 2025-10-24
 
 ### What's Changed
@@ -36,6 +40,7 @@ you can pass
 
 ```php
 ->searchable(['name','email'])
+
 
 
 
