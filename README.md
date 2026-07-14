@@ -4,6 +4,14 @@
 
 <h4 align="center">Lara Zeus Tiles is a collection of components to present your data in an elegant way.</h4>
 
+## Versions
+
+| Plugin Version | Filament Version |
+| --- | --- |
+| `v1.x` | `v2.x` |
+| `v2.x` | `v3.x` |
+| `v3.x` | `v3.x` |
+
 ## Features
 
 - 🔥 Table column
